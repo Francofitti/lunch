@@ -1,0 +1,10 @@
+<div class="card cont" ng-controller="DirectivesCtrl">
+    <div class="card-block container">
+    <h4 class="card-title">DirectivesCtrl scope</h4>
+        <div class="cont"> {{greeting}}</div>
+        <div class="cont">{{obj.foo}}</div>
+        <no-scope ></no-scope>
+        <child-scope ></child-scope>
+        <isolated-scope obj='obj'></isolated-scope>
+    </div>
+</div>
